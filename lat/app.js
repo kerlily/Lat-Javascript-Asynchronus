@@ -95,3 +95,12 @@ const requestPromise = (url) => {
     console.log(err);
   });
 
+new Promise((resolve, reject) => {
+  return new Promise((resolve, reject) => {
+      resolve('hello');
+        resolve(() => {
+          'berhasil';
+        })    
+  })
+  
+  })
